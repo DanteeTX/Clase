@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <form action="registrardatos.php" method="post">
+            <fieldset>
+                <legend>Datos de la incidencia:</legend>
+                Usuario:<br>
+                <input type="text" name="Usuario" size="20"><br><br>
+                Departamento:<br>
+                <select name="Departamento">
+                    <option value="1">Informatica</option>
+                    <option value="2">Administracion</option>
+                </select>
+                <br><br>
+                Descripcion:<br>
+                <textarea name="descripcion" cols="20" rows="5">
+                </textarea>
+                <br><br>
+                Contraseña:
+                <br><input type="text" name="contraseña" size="20">
+            </fieldset>
+            <fieldset>
+                <legend>Botones reset y enviar:</legend>
+                <input type="reset" value="resetear">
+                <input type="submit" value="enviar">
+            </fieldset>
+        </form>
+    </body>
+</html>

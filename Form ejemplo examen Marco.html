@@ -1,0 +1,33 @@
+<!DOCTYPE html><meta charset="UTF-8">
+<html>
+    <head>
+    </head>
+    <body>
+        <form action="registrardatos.php" method="post">
+           Nombre: <input type="text" name="nombre"><br>
+            E_mail: <input type="text" name="email"><br>
+            <br>
+            Deseas recibir informacion sobre:
+            <input type="checkbox" name="Internet">Internet
+            <input type="checkbox" name="Programacion">Programacion
+            <input type="checkbox" name="Sist.Operativos">Sist.Operativos
+            <input type="checkbox" name="ofimatica">ofimatica
+            <br><br>
+            ¿Te conectas a Internet desde casa?<br>
+            <input type="radio" name="Internet" value="1">Si
+            <input type="radio" name="Internet" value="2">No
+            <br><br>
+            ¿Que uso le das al ordenador?<br>
+            <select name="Uso ordenador" multiple>
+                <option value="1">Profesional</option>
+                <option value="2">Doméstico</option>
+                <option value="3">Ocio/Juegos</option>
+            </select>
+            <br><br>
+            Caracteristicas de tu PC:<br>
+            <textarea name="Caracteristicas" rows="5" cols="60"></textarea>
+            <br><br>
+            <input type="submit" value="Enviar Datos"><input type="reset" value="Borrar Datos">
+        </form>
+    </body>
+</html>

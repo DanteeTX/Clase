@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+    <head><title>Formulario</title></head>
+    <body>
+        <form action="registrardatos.php" method="post">
+            Dime tu nombre: <input type="text" name="nombre">
+            <br>
+            <br>
+            Selecciona tu sexo:
+            <input type="radio" name="sexo" value="1">Masculino
+            <input type="radio" name="sexo" value="2">Femenino
+            <br>
+            <br>
+            Valora:
+            <select name="voto[]" multiple>
+                <option value="1">Excelente</option>
+                <option value="2">Bueno</option>
+                <option value="3">Malo</option>
+                <option value="4">Muy Malo</option>
+            </select>
+            <br>
+        <br>
+            <input type="submit" value="enviar"><input type="reset" value="borrar">
+        </form>
+    </body>
+</html>
