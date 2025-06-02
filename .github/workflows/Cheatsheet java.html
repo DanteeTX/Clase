@@ -1,0 +1,63 @@
+<html>
+    if (condición) {
+  // Si la condición es verdadera
+} else {
+  // Si la condición es falsa
+}
+
+Ejemplo:
+let edad = 18;
+
+if (edad >= 18) {
+  console.log("Eres mayor de edad");
+} else {
+  console.log("Eres menor de edad");
+}
+
+→ Condicional: if / else
+   Si pasa algo → haz esto
+   Si no → haz otra cosa
+
+→ Bucle while
+   Mientras una condición sea verdadera → repite
+
+→ Bucle do...while
+   Haz esto al menos una vez, luego verifica si se repite
+
+→ Bucle for
+   Repite un número fijo de veces (ideal cuando ya sabes cuántas veces)
+
+→ Puedes mezclar if / else dentro de cualquier bucle
+
+Ejemplo while:
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejemplo While</title>
+</head>
+<body>
+  <h2>Contador con while</h2>
+  <div id="resultado"></div>
+
+  <script>
+    let contador = 1;
+    let texto = "";
+
+    while (contador <= 5) {
+      texto += "Número: " + contador + "<br>";
+      contador++;
+    }
+
+    document.getElementById("resultado").innerHTML = texto;
+  </script>
+</body>
+</html>
+
+| Concepto         | Explicación breve             |
+| ---------------- | ----------------------------- |
+| `<script>`       | Donde escribes JavaScript     |
+| `alert()`        | Muestra una ventana emergente |
+| `document`       | Representa la página HTML     |
+| `getElementById` | Busca un elemento por su ID   |
+| `onclick`        | Ejecuta código al hacer clic  |

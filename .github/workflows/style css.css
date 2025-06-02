@@ -1,0 +1,51 @@
+h1{color:red;font-size: 50px;font-family:'times new roman';}
+h2{color: blue;font-size: 35px;font-family: verdana;}
+p{color: blueviolet;font-size: 15px;font-family: georgia;}
+.subrayado {
+    color:#00aa00;
+    text-decoration: underline;
+   }
+  .tachado {
+    color:#00aa00;
+    text-decoration: line-through;
+   }
+   .pregunta {
+    font-family:verdana;
+    font-size:14px;
+    font-style:italic;
+    color:#0000aa;
+   }
+   .respuesta {
+    font-family:verdana;
+    font-size:12px;
+    font-style:normal;
+    text-align:justify;
+    color:#555555;
+   }
+#cabecera{ 
+    font-family: 'courier';
+font-size: 60px;
+color: #0000aa;
+background-color: #bbbbbb;
+}   
+h1 {
+    border-width:2px;
+    border-style:solid;
+    border-color:#0000ff;
+   }
+   h2 {
+    border-width:2px;
+    border-style:dotted;
+    border-color:#0000ff;
+   }
+   h3 {
+    border-width:2px;
+    border-style: double;
+    border-color:#0000ff;
+   }
+   .titulosecundario{border-top: 2px;
+border-bottom: 2px;
+border-left: 0px;
+border-right: 0px;
+border-style: dotted;
+border-color: red;}
